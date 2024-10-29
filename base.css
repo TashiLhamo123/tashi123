@@ -1,0 +1,72 @@
+@charset "utf-8";
+@font-face{
+    font-family: Precious;
+    src:url(Precious.ttf) format('truetype');
+}
+@font-face{
+    font-family: Avara;
+    src:url(Avara.ttf) format('truetype');
+}
+@font-face{
+    font-family: Process;
+    src:url(Process-magenta.otf) format('opentype');
+}
+html{
+    background-color: rgb(13, 95, 20);
+}
+body{
+    background-color: rgb(33, 168, 56);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1020px;
+    min-width: 640px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24fc41;
+    padding: 20px;
+    position: sticky;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+.profile {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: hsl(128, 97%, 56%);
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
